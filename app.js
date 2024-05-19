@@ -63,7 +63,7 @@ gsap.to('.flower', {
         toggleActions: "restart reset restart reset",
     },
     rotation: 360, 
-    delay: 0.5,
+    delay: 0.5, 
     transformOrigin:"center",
     scale: 0.8,
     duration: 1,
