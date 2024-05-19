@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+   overflow-x: hidden;
+    color: white;
+    background: #333;
+    overflow-x: hidden;
+
+}
+
+nav {
+    background-color: #333;
+}
+
+.btn {
+    min-width: 160px;
+    min-height: 48px;
+    border: none;
+  background: linear-gradient(153deg, #2289c3 0%, #b685ff 100%);
+    font-weight: 600;
+    padding: 12px;
+    border-radius: 50em;
+    text-align: center;
+}
+
+span {
+    background: linear-gradient(153deg, rgba(34,137,195,1) 0%, rgba(182,133,255,1) 100%);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+
+.circle {
+    background: linear-gradient(193deg, #2289c3 0%, #b685ff 100%);
+  filter: blur(0.2rem);
+}
+
+section {
+    padding: 4rem 2.5%;
+}
+
+.outlineButton {
+    background: linear-gradient(#333, #333) padding-box,
+              linear-gradient(to right, #2289c3, #b685ff) border-box;
+  border-radius: 50em;
+  border: 3px solid transparent;
+  font-weight: 600;
+  padding: 12px;
+  text-align: center;
+  min-width: 180px;
+  min-height: 48px;
+}
+
+
+
