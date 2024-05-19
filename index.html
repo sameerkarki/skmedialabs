@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>sk digital Agency</title>
     <link rel="shortcut icon" href="assets/lg.png" type="image/x-icon">
     <link rel="stylesheet" href="style.css">
     <script src="https://cdn.tailwindcss.com"></script>
@@ -31,7 +31,7 @@
             <li><a href="#services">services</a></li>
 
         </ul>
-        <button class="btn">Chat with Us</button>
+        <button class="btn" onclick="link()">Chat with Us</button>
     </nav>
     <section id="hero" data-scroll class="mt-32 min-h-[80vh] flex flex-col justify-center  items-center gap-8 ">
         <h1 id="text" data-scroll
@@ -40,7 +40,7 @@
             digital Agency</h1>
         <p class="text-[2rem] font-normal tracking-normal text-gray-300">Your Vision, Our <span>Innovation</span>.
         </p>
-        <button class="outlineButton">Hire Us</button>
+        <button class="outlineButton" onclick="link()">Hire Us</button>
         <div class="hidden lg:block circle absolute w-[25px] h-[25px] rounded-full "></div>
 
 
@@ -109,19 +109,18 @@
         </div>
     </section>
 
-<footer class="flex flex-row gap-4 justify-between px-6 items-center mx-4 border-t ">
-    <div class="lft flex flex-col gap-4 pt-4">
+<section class="hire flex flex-col gap-12 items-center">
+    <h2 class="service-text text-[2.5rem] font-semibold text-gray-300 text-center">Work with us</h2>
+  <button class="btn" onclick="link()">Message Us</button>
+</section>
+
+<footer class="flex flex-row gap-4 justify-between px-6 items-center ">
+
         <img src="assets/lg.png" alt="logo" width="80px">
 <p> &copy; copyright all rights reserved</p>
-    </div>
+ 
 
-    <ul class="flex flex-col gap-6 pt-4">
-        <li><a href="#hero" class="text-xl">Home</a></li>
-        <li><a href="#about" class="text-xl">about</a></li>
-        <li><a href="#services" class="text-xl">services</a></li>
 
-    
-    </ul>
 
 </footer>
 

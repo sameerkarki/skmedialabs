@@ -1,6 +1,10 @@
 gsap.registerPlugin(ScrollTrigger);
 
 
+function link() {
+    window.open("https://wa.me/9841528597")
+}
+
 const text = new SplitType('#text')
 
 gsap.from(text.chars, {
