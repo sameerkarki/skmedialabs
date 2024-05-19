@@ -38,8 +38,8 @@ gsap.from(".about-text", {
 
 
 document.addEventListener("mousemove", (mouse) => {
-    const xPos = mouse.pageX + -670+"px"
-    const yPos = mouse.pageY + -340+"px"
+    const xPos = mouse.pageX + "px"
+    const yPos = mouse.pageY + 'px'
 
 gsap.to(".circle", {
     x: xPos,

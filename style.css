@@ -32,7 +32,7 @@ span {
 
 .circle {
     background: linear-gradient(193deg, #2289c3 0%, #b685ff 100%);
-  filter: blur(0.2rem);
+  filter: blur(0.1rem);
 }
 
 section {
