@@ -36,20 +36,6 @@ gsap.from(".about-text", {
 })
 
 
-gsap.from(".card", {
-    scrollTrigger: {
-        scroller: 'body',
-        trigger: '.card',
-        toggleActions: "restart reset restart reset",
-
-    },
-    opacity: 0,
-    delay: 0.1,
-    duration: 1,
-    stagger: 0.5,
-
-})
-
 
 document.addEventListener("mousemove", (mouse) => {
     const xPos = mouse.pageX + -670+"px"
